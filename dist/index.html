@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <!-- Color palette: https://huemint.com/website-2/#palette=cefad6-a22125-6fac53-6e7345 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrating's portfolio</title>
+    <link rel="stylesheet" href="./output.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg-[#cefad6] text-[#a22125] font-[Poppins]">
+    <nav class="w-full py-6 px-5 fixed top-0 backdrop-blur-lg">
+        <!-- logo -->
+        <div class="grid grid-cols-2 gap-2 mx-auto">
+        <div class="flex items-center space-x-2"><img src="./img/logo.webp" alt="Website logo" height="40px" width="40px" class=""><a href="#" class="text-lg font-semibold">Web Weaver</a></div>
+        <!-- menu items -->
+        <div class="flex items-center space-x-8 text-lg font-medium justify-end"><a href="#">About me</a><a href="#projects" class="">Projects</a><a href="#education" class="">Education</a><div class="w-[2px] h-5 bg-[#6fac53]"></div><a href="https://github.com/leejiaq"><img src="./img/github-mark.png" alt="" height="30px" width="30px" class="-mt-1"></a></div>
+    </div>
+    </nav>
+
+        <section class="max-w-2xl mx-auto py-32 mt-16 text-center">
+            <div>
+                <h1 class="lg:text-6xl text-4xl font-medium">Hi! I am <span class="text-[#6fac53] underline underline-offset-8">Web Weaver</span></h1>
+                <p class="mt-10 lg:text-lg">I am a passionate and dedicated web developer with a keen eye for detail and a drive to create user-friendly and engaging web experiences. I have a strong understanding of front-end development principles, and I am always eager to learn new technologies and techniques. </p>
+                <button class="bg-[#a22125] py-2 px-5 text-[#cefad6] mt-6 rounded-full">Download CV</button>
+                <p class="text-xs mt-2">*currently don't have one</p>
+            </div>
+            <!--<img src="./img/logo.webp" class="w-full">--></section>
+            <section id="projects" class="max-w-2xl mx-auto py-32 text-center"><h2 class=" text-3xl">Projects</h2><p class="mt-8">Currently working on some. Will be presented in the future. </p>
+                <fieldset class="border-2 border-solid border-[#6fac53] p-4 mt-12 max-w-sm lg:max-w-lg mx-auto rounded-lg"><legend class="text-xl px-5">
+                <h3>Subscribe to my newsletter</h3></legend><p class="text-sm">Subscribe to get the latest project updates</p>
+                <form class="mt-4"><label for="email">Email: </label><br><input id="email" type="email" class="p-2 outline-none w-full"><br><button class="bg-[#a22125] py-2 px-5 text-[#cefad6] mt-6 rounded-full">Subscribe</button><p class="text-xs mt-2">*not working either</p></form></fieldset></section>
+                
+                <section id="education" class="max-w-2xl mx-auto py-32 text-center">
+                    <h2 class=" text-3xl">Education</h2><p class="mt-8">No Degree obtained. <span class="text-[#948383]">~ A high school student</span></p>
+                </section>
+                <footer class="py-32 text-center border-t-2 border-[#6fac53] bg-teal-700 grid grid-cols-8 gap-3 text-[#cefad6]">
+                <div class="col-start-2 col-span-2">Privacy Policy</div>
+                <div class="col-start-4 col-span-2">Terms and Conditions</div>
+                <div class="col-start-6 col-span-2">About me</div>
+                <div class="col-span-10 mt-28">&copy 2023 Web Weaver</div>
+            </footer>
+</body>
+</html>
